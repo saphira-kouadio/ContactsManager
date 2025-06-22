@@ -1,54 +1,19 @@
-# 📱 ContactsManager
+# ContactsManager
 
-## 📌 Description
-Ce projet Java est une application simple de **gestion de contacts** qui permet :
+## Présentation
 
-- d'ajouter des contacts (nom + numéro de téléphone)
-- de rechercher un contact par son nom
-- d’afficher son numéro s’il est trouvé
+Ce programme Java propose une gestion simple de contacts via l’invite de commande.  
+L’utilisateur peut y effectuer des ajouts, suppressions ou affichages de contacts à l’aide d’un menu.
 
-Ce projet a été réalisé dans le cadre du cours **Programmation Orientée Objet en Java (Chapitre 6)**.
+## Détails de fonctionnement
 
----
+Le programme repose sur une structure comme un tableau ou une liste pour conserver les contacts.  
+Un menu interactif dans la console permet d’effectuer les différentes opérations.
 
-## 🏗️ Structure du projet
+## Instructions pour IntelliJ
 
-```
-ContactsManager/
-├── src/
-│   ├── Contact.java
-│   ├── ContactsManager.java
-│   └── Main.java
-├── README.md
-```
-
----
-
-## ⚙️ Technologies utilisées
-
-- Java (JDK 17+)
-- IntelliJ IDEA
-- Git & GitHub
-
----
-
-## 🚀 Lancer le projet
-
-1. Ouvrir le projet dans **IntelliJ**.
-2. Compiler et exécuter le fichier `Main.java`.
-
----
-
-## 🔍 Exemple d’exécution
-
-```
-Numéro de Charlie : 0633445566
-```
-
----
-
-## 🧑‍💻 Auteur
-
-- Nom : *[À remplir par toi]*
-- Cours : **Projet Informatique II – POO Java**
-- École : Pigier
+1. Démarrer IntelliJ IDEA.  
+2. Ouvrir le dossier du projet concerné.  
+3. Vérifier la version du JDK utilisée.  
+4. Accéder à la classe principale.  
+5. Lancer le programme avec *Run*.
